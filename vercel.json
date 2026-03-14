@@ -41,10 +41,6 @@
       "source": "/(.*)",
       "headers": [
         {
-          "key": "Content-Security-Policy",
-          "value": "default-src 'self' https://offlineunikittygame.vercel.app; style-src-attr 'unsafe-inline'"
-        },
-        {
           "key": "X-Frame-Options",
           "value": "ALLOW"
         }
@@ -53,8 +49,8 @@
   ],
   "rewrites": [
     {
-      "source": "/src/(.*).js",
-      "destination": "/src/$1",
+      "source": "/(.*).js",
+      "destination": "/$1",
       "has": [
         {
           "type": "header",
@@ -66,8 +62,8 @@
       ]
     },
     {
-      "source": "/src/(.*).min.js",
-      "destination": "/src/$1",
+      "source": "/(.*).min.js",
+      "destination": "/$1",
       "has": [
         {
           "type": "header",
