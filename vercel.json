@@ -55,24 +55,28 @@
     {
       "source": "/src/(.*).js",
       "destination": "/src/$1",
-      "has": {
-        "type": "header",
-        "key": "Content-Type",
-        "value": {
-          "eq": "application/javascript"
+      "has": [
+        {
+          "type": "header",
+          "key": "Content-Type",
+          "value": {
+            "eq": "application/javascript"
+          }
         }
-      }
+      ]
     },
     {
       "source": "/src/(.*).min.js",
       "destination": "/src/$1",
-      "has": {
-        "type": "header",
-        "key": "Content-Type",
-        "value": {
-          "eq": "application/javascript"
+      "has": [
+        {
+          "type": "header",
+          "key": "Content-Type",
+          "value": {
+            "eq": "application/javascript"
+          }
         }
-      }
+      ]
     },
     {
       "source": "/(.*)",
