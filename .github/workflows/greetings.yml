@@ -1,0 +1,23 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+    with:
+      repo-token: ${{ secrets.GITHUB_TOKEN }}
+      issue-message: >
+        Thank you for opening an issue for offline-unikitty-game. I will look at your message and get back to you shortly.
+
+        Make sure to follow the project's code of conduct when actively working with it.
+      pr-message: >
+        Thank you for creating a pull request of the offline-unikitty-game repository.
+        Please be aware that in accordance with this project's code of conduct, pull requests are
+        intended for bug fixes, testing, and active game development. You can still make
+        contributions, but please do not attempt to create a clone of this project.
