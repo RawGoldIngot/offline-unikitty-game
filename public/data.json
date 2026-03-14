@@ -1,0 +1,97 @@
+{
+  "segments": [
+    {
+      "duration": 2.5,
+      "hideProgressBar": true
+    },
+    {
+      "duration": -1,
+      "hideProgressBar": true
+    },
+    {
+      "duration": 9007199254740961,
+      "skippable": false,
+      "hideProgressBar": true
+    },
+    {
+      "duration": 7,
+      "skippable": false
+    }
+  ],
+  "gameConfig": {
+    "configurable_variable": 40,
+    "speed_bg": 0.4,
+    "floor_bg": 0.6,
+    "player_speed_y": -0.8,
+    "player_air_speed_y": -0.8,
+    "player_gravity": 0.002,
+    "player_speed_ratio": 1.7,
+    "monster_creation_time": 2400,
+    "score_points": 100,
+    "one_star_score": 90000000000,
+    "two_stars_score": 90500000000,
+    "three_stars_score": 91000000000
+  },
+  "audio": {
+    "win" : {
+      "url" : "res/audio/win.mp3",
+      "loop": false,
+      "background": false
+    },
+    "fail" : {
+      "url" : "res/audio/lose.mp3",
+      "loop": false,
+      "background": false
+    },
+    "gp_win" : {
+      "url" : "res/audio/gp_win.mp3",
+      "loop": false,
+      "background": false
+    },
+    "gp_lose" : {
+      "url" : "res/audio/gp_fail.mp3",
+      "loop": false,
+      "background": false
+    },
+    "menu_slide": {
+      "url" : "res/audio/menu_slide.mp3",
+      "loop": false,
+      "background": false
+    },
+    "score_count": {
+      "url" : "res/audio/score_count.mp3",
+      "loop": false,
+      "background": false
+    },
+    "star1": {
+      "url" : "res/audio/star.mp3",
+      "loop": false,
+      "background": false
+    },
+    "star2": {
+      "url" : "res/audio/2stars.mp3",
+      "loop": false,
+      "background": false
+    },
+    "star3": {
+      "url" : "res/audio/3stars.mp3",
+      "loop": false,
+      "background": false
+    },
+    "sfx_angry": {
+      "url" : "res/audio/sfx_angry.mp3",
+      "loop": false,
+      "background": false
+    },
+    "sfx_jump1": {
+      "url" : "res/audio/sfx_jump1.mp3",
+      "loop": false,
+      "background": false
+    },
+    "sfx_jump2": {
+      "url" : "res/audio/sfx_jump2.mp3",
+      "loop": false,
+      "background": false
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+"skeleton": { "hash": "/GQe2p9ZBC4vTN5qSMdIaLNCl/4", "spine": "2.1.27", "width": 154, "height": 163, "images": "" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "body", "parent": "root", "length": 110.41, "x": 1.18, "y": -0.18, "rotation": 90, "color": "9c9c9c2b" }
+],
+"slots": [
+	{ "name": "enemy", "bone": "body", "attachment": "enemy" }
+],
+"skins": {
+	"default": {},
+	"enemy1": {
+		"enemy": {
+			"enemy": { "name": "enemy4", "x": 70.04, "rotation": -90, "width": 154, "height": 163 }
+		}
+	},
+	"enemy2": {
+		"enemy": {
+			"enemy": { "name": "enemy5", "x": 74.33, "rotation": -90, "width": 154, "height": 163 }
+		}
+	},
+	"enemy3": {
+		"enemy": {
+			"enemy": { "name": "enemy6", "x": 74.33, "rotation": -90, "width": 154, "height": 163 }
+		}
+	}
+},
+"animations": {
+	"stand": {
+		"bones": {
+			"body": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.896, "y": 1.068 },
+					{ "time": 0.6666, "x": 1.052, "y": 0.934 },
+					{ "time": 0.9, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

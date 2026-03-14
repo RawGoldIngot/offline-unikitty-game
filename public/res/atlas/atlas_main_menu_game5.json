@@ -1,0 +1,52 @@
+{"frames": [
+
+{
+	"filename": "highscore.png",
+	"frame": {"x":198,"y":2,"w":208,"h":26},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":23,"w":208,"h":26},
+	"sourceSize": {"w":246,"h":74}
+},
+{
+	"filename": "logo.png",
+	"frame": {"x":351,"y":30,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":581,"h":347}
+},
+{
+	"filename": "play.png",
+	"frame": {"x":2,"y":2,"w":194,"h":188},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":194,"h":188},
+	"sourceSize": {"w":194,"h":188}
+},
+{
+	"filename": "sound.png",
+	"frame": {"x":198,"y":30,"w":71,"h":69},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":71,"h":69},
+	"sourceSize": {"w":71,"h":69}
+},
+{
+	"filename": "ui_top_score.png",
+	"frame": {"x":2,"y":192,"w":347,"h":46},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":14,"w":347,"h":46},
+	"sourceSize": {"w":441,"h":74}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_main_menu_game5.png",
+	"format": "RGBA8888",
+	"size": {"w":408,"h":240},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:6744738a76c0121fba9fe692869ad30c:8cd667cec49c720d198bff7b418c2ac9:6978e6337e2709f20ca2e65ff12376c3$"
+}
+}

@@ -1,0 +1,34 @@
+{
+  "name": "offline-unikitty-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Offline Unikitty Game (Lucky Leaps)",
+  "author": {
+    "name": "rawgoldingot",
+    "email": "rawgoldingot@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "rawgoldingot",
+      "email": "rawgoldingot@gmail.com"
+    }
+  ],
+  "homepage": "https://offlineunikittygame.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RawGoldIngot/offlineunikittygame"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.20.2"
+  },
+  "devDependencies": {
+    "vite": "^7.3.1",
+    "vite-plugin-pwa": "^1.2.0"
+  }
+}

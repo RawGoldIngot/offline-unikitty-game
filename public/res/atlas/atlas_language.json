@@ -1,0 +1,36 @@
+{"frames": [
+
+{
+	"filename": "highscore.png",
+	"frame": {"x":2,"y":2,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":1,"h":1}
+},
+{
+	"filename": "lc_highscore.png",
+	"frame": {"x":2,"y":2,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":1,"h":1}
+},
+{
+	"filename": "score.png",
+	"frame": {"x":2,"y":2,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":1,"h":1}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_language_base.png",
+	"format": "RGBA8888",
+	"size": {"w":5,"h":5},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:bf369e256ab00ae9580c82d9d0579dda:3a7f236bb6423d8669d764758d636051:d2fe9ba8a18bd07cbf68fc59b70e11b0$"
+}
+}

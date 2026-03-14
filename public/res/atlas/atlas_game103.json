@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "fx0.png",
+	"frame": {"x":410,"y":132,"w":30,"h":24},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":84,"w":30,"h":24},
+	"sourceSize": {"w":247,"h":185}
+},
+{
+	"filename": "fx1.png",
+	"frame": {"x":574,"y":106,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":67,"w":72,"h":56},
+	"sourceSize": {"w":247,"h":185}
+},
+{
+	"filename": "fx2.png",
+	"frame": {"x":574,"y":2,"w":133,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":45,"w":133,"h":102},
+	"sourceSize": {"w":247,"h":185}
+},
+{
+	"filename": "fx3.png",
+	"frame": {"x":410,"y":2,"w":162,"h":128},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":38,"y":31,"w":162,"h":128},
+	"sourceSize": {"w":247,"h":185}
+},
+{
+	"filename": "fx4.png",
+	"frame": {"x":215,"y":2,"w":193,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":15,"w":193,"h":155},
+	"sourceSize": {"w":247,"h":185}
+},
+{
+	"filename": "fx5.png",
+	"frame": {"x":2,"y":2,"w":211,"h":173},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":7,"w":211,"h":173},
+	"sourceSize": {"w":247,"h":185}
+},
+{
+	"filename": "fx6.png",
+	"frame": {"x":215,"y":159,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":247,"h":185}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "atlas_game103.png",
+	"format": "RGBA8888",
+	"size": {"w":709,"h":177},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:63799f4030ef61b49eed587c8434d775:2a7eb028397709fe8083ebfa2e69de22:d414bce36707fce6a6f440cf9b3503a7$"
+}
+}

@@ -1,0 +1,125 @@
+
+enemy_air.png
+size: 400,400
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enemy1
+  rotate: false
+  xy: 194, 255
+  size: 152, 143
+  orig: 152, 143
+  offset: 0, 0
+  index: -1
+enemy2
+  rotate: false
+  xy: 194, 110
+  size: 152, 143
+  orig: 152, 143
+  offset: 0, 0
+  index: -1
+enemy3
+  rotate: false
+  xy: 2, 219
+  size: 190, 179
+  orig: 190, 179
+  offset: 0, 0
+  index: -1
+wing_back1
+  rotate: true
+  xy: 106, 161
+  size: 56, 85
+  orig: 56, 85
+  offset: 0, 0
+  index: -1
+wing_back2
+  rotate: true
+  xy: 2, 161
+  size: 56, 85
+  orig: 56, 85
+  offset: 0, 0
+  index: -1
+wing_back3
+  rotate: true
+  xy: 106, 103
+  size: 56, 85
+  orig: 56, 85
+  offset: 0, 0
+  index: -1
+wing_back4
+  rotate: false
+  xy: 158, 16
+  size: 56, 85
+  orig: 56, 85
+  offset: 0, 0
+  index: -1
+wing_back5
+  rotate: false
+  xy: 216, 22
+  size: 56, 85
+  orig: 56, 85
+  offset: 0, 0
+  index: -1
+wing_back6
+  rotate: false
+  xy: 274, 23
+  size: 56, 85
+  orig: 56, 85
+  offset: 0, 0
+  index: -1
+wing_back7
+  rotate: false
+  xy: 332, 22
+  size: 56, 85
+  orig: 56, 85
+  offset: 0, 0
+  index: -1
+wing_front1
+  rotate: false
+  xy: 348, 303
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1
+wing_front2
+  rotate: false
+  xy: 348, 206
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1
+wing_front3
+  rotate: false
+  xy: 348, 109
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1
+wing_front4
+  rotate: false
+  xy: 2, 12
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1
+wing_front5
+  rotate: false
+  xy: 54, 12
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1
+wing_front6
+  rotate: true
+  xy: 2, 109
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1
+wing_front7
+  rotate: false
+  xy: 106, 6
+  size: 50, 95
+  orig: 50, 95
+  offset: 0, 0
+  index: -1

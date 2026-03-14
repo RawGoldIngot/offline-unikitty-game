@@ -1,0 +1,104 @@
+{
+"skeleton": { "hash": "QHAuMfkmyAWgXYjUj3z4j2+MtRk", "spine": "2.1.27", "width": 152, "height": 143, "images": "" },
+"bones": [
+	{ "name": "root", "color": "9b149638" },
+	{ "name": "bone", "parent": "root", "color": "9b149638" },
+	{ "name": "wing_back", "parent": "root", "y": -2.03, "color": "9b149638" },
+	{ "name": "wing_front", "parent": "root", "x": 29.13, "y": -6.96, "color": "9b149638" }
+],
+"slots": [
+	{ "name": "wing_back1", "bone": "wing_back", "attachment": "wing_back1" },
+	{ "name": "enemy", "bone": "bone", "attachment": "enemy" },
+	{ "name": "wing_front1", "bone": "wing_front", "attachment": "wing_front1" }
+],
+"skins": {
+	"default": {},
+	"enemy1": {
+		"enemy": {
+			"enemy": { "name": "enemy1", "width": 152, "height": 143 }
+		}
+	},
+	"enemy2": {
+		"enemy": {
+			"enemy": { "name": "enemy2", "width": 152, "height": 143 }
+		}
+	},
+	"enemy3": {
+		"enemy": {
+			"enemy": { "name": "enemy3", "width": 190, "height": 179 }
+		},
+		"wing_back1": {
+			"wing_back1": { "y": -0.91, "width": 56, "height": 85 },
+			"wing_back2": { "width": 56, "height": 85 },
+			"wing_back3": { "width": 56, "height": 85 },
+			"wing_back4": { "width": 56, "height": 85 },
+			"wing_back5": { "width": 56, "height": 85 },
+			"wing_back6": { "width": 56, "height": 85 },
+			"wing_back7": { "width": 56, "height": 85 }
+		},
+		"wing_front1": {
+			"wing_front1": { "width": 50, "height": 95 },
+			"wing_front2": { "width": 50, "height": 95 },
+			"wing_front3": { "width": 50, "height": 95 },
+			"wing_front4": { "width": 50, "height": 95 },
+			"wing_front5": { "width": 50, "height": 95 },
+			"wing_front6": { "width": 50, "height": 95 },
+			"wing_front7": { "width": 50, "height": 95 }
+		}
+	}
+},
+"animations": {
+	"stand": {
+		"slots": {
+			"wing_back1": {
+				"attachment": [
+					{ "time": 0, "name": "wing_back1" },
+					{ "time": 0.0666, "name": "wing_back2" },
+					{ "time": 0.1, "name": "wing_back3" },
+					{ "time": 0.1666, "name": "wing_back4" },
+					{ "time": 0.2, "name": "wing_back5" },
+					{ "time": 0.2666, "name": "wing_back6" },
+					{ "time": 0.3333, "name": "wing_back7" },
+					{ "time": 0.3666, "name": "wing_back1" },
+					{ "time": 0.4333, "name": "wing_back2" },
+					{ "time": 0.4666, "name": "wing_back3" },
+					{ "time": 0.5333, "name": "wing_back4" },
+					{ "time": 0.6, "name": "wing_back5" },
+					{ "time": 0.6333, "name": "wing_back6" },
+					{ "time": 0.7, "name": "wing_back7" },
+					{ "time": 0.7333, "name": "wing_back1" }
+				]
+			},
+			"wing_front1": {
+				"attachment": [
+					{ "time": 0, "name": "wing_front1" },
+					{ "time": 0.0666, "name": "wing_front2" },
+					{ "time": 0.1, "name": "wing_front3" },
+					{ "time": 0.1666, "name": "wing_front4" },
+					{ "time": 0.2, "name": "wing_front5" },
+					{ "time": 0.2666, "name": "wing_front6" },
+					{ "time": 0.3333, "name": "wing_front7" },
+					{ "time": 0.3666, "name": "wing_front1" },
+					{ "time": 0.4333, "name": "wing_front2" },
+					{ "time": 0.4666, "name": "wing_front3" },
+					{ "time": 0.5333, "name": "wing_front4" },
+					{ "time": 0.6, "name": "wing_front5" },
+					{ "time": 0.6333, "name": "wing_front6" },
+					{ "time": 0.7, "name": "wing_front7" },
+					{ "time": 0.7333, "name": "wing_front1" }
+				]
+			}
+		},
+		"bones": {
+			"bone": {
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1 },
+					{ "time": 0.3333, "x": 0.896, "y": 0.896 },
+					{ "time": 0.6, "x": 1.135, "y": 1.135 },
+					{ "time": 0.7333, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

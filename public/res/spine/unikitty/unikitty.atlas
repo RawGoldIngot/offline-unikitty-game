@@ -1,0 +1,195 @@
+
+unikitty.png
+size: 637,637
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body0
+  rotate: true
+  xy: 198, 7
+  size: 65, 51
+  orig: 65, 51
+  offset: 0, 0
+  index: -1
+body1
+  rotate: false
+  xy: 109, 2
+  size: 87, 70
+  orig: 87, 70
+  offset: 0, 0
+  index: -1
+body15
+  rotate: false
+  xy: 2, 227
+  size: 150, 131
+  orig: 150, 131
+  offset: 0, 0
+  index: -1
+body16
+  rotate: false
+  xy: 235, 504
+  size: 150, 131
+  orig: 150, 131
+  offset: 0, 0
+  index: -1
+body17
+  rotate: false
+  xy: 2, 94
+  size: 150, 131
+  orig: 150, 131
+  offset: 0, 0
+  index: -1
+body18
+  rotate: false
+  xy: 235, 371
+  size: 150, 131
+  orig: 150, 131
+  offset: 0, 0
+  index: -1
+body19
+  rotate: false
+  xy: 387, 504
+  size: 150, 131
+  orig: 150, 131
+  offset: 0, 0
+  index: -1
+body20
+  rotate: false
+  xy: 387, 371
+  size: 150, 131
+  orig: 150, 131
+  offset: 0, 0
+  index: -1
+body21
+  rotate: false
+  xy: 564, 88
+  size: 67, 72
+  orig: 67, 72
+  offset: 0, 0
+  index: -1
+body3
+  rotate: false
+  xy: 537, 162
+  size: 67, 72
+  orig: 67, 72
+  offset: 0, 0
+  index: -1
+body7
+  rotate: true
+  xy: 539, 385
+  size: 57, 85
+  orig: 57, 85
+  offset: 0, 0
+  index: -1
+collar_1
+  rotate: false
+  xy: 537, 140
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+collar_red
+  rotate: false
+  xy: 537, 118
+  size: 25, 20
+  orig: 25, 20
+  offset: 0, 0
+  index: -1
+face1-2
+  rotate: false
+  xy: 257, 14
+  size: 133, 101
+  orig: 133, 101
+  offset: 0, 0
+  index: -1
+face13
+  rotate: false
+  xy: 267, 117
+  size: 133, 101
+  orig: 133, 101
+  offset: 0, 0
+  index: -1
+face21
+  rotate: false
+  xy: 402, 117
+  size: 133, 101
+  orig: 133, 101
+  offset: 0, 0
+  index: -1
+face23
+  rotate: true
+  xy: 539, 529
+  size: 106, 85
+  orig: 106, 85
+  offset: 0, 0
+  index: -1
+face27
+  rotate: false
+  xy: 2, 18
+  size: 105, 74
+  orig: 105, 74
+  offset: 0, 0
+  index: -1
+face3
+  rotate: true
+  xy: 154, 74
+  size: 133, 101
+  orig: 133, 101
+  offset: 0, 0
+  index: -1
+face7
+  rotate: true
+  xy: 493, 236
+  size: 133, 101
+  orig: 133, 101
+  offset: 0, 0
+  index: -1
+head1
+  rotate: false
+  xy: 154, 209
+  size: 111, 149
+  orig: 111, 149
+  offset: 0, 0
+  index: -1
+head7
+  rotate: false
+  xy: 267, 220
+  size: 111, 149
+  orig: 111, 149
+  offset: 0, 0
+  index: -1
+head8
+  rotate: false
+  xy: 380, 220
+  size: 111, 149
+  orig: 111, 149
+  offset: 0, 0
+  index: -1
+head9
+  rotate: false
+  xy: 2, 360
+  size: 231, 275
+  orig: 231, 275
+  offset: 0, 0
+  index: -1
+tail_2
+  rotate: false
+  xy: 539, 444
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+tail_3
+  rotate: false
+  xy: 392, 32
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1
+tail_5
+  rotate: false
+  xy: 478, 32
+  size: 84, 83
+  orig: 84, 83
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,82 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "headers": [
+    {
+      "source": "/(.*).html",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/sw.js",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/manifest.webmanifest",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/manifest+json"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' https://offlineunikittygame.vercel.app/"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "ALLOW"
+        }
+      ]
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/src/(.*).js",
+      "destination": "/src/$1",
+      "has": {
+        "type": "header",
+        "key": "Content-Type",
+        "value": {
+          "eq": "application/javascript"
+        }
+      }
+    },
+    {
+      "source": "/src/(.*).min.js",
+      "destination": "/src/$1",
+      "has": {
+        "type": "header",
+        "key": "Content-Type",
+        "value": {
+          "eq": "application/javascript"
+        }
+      }
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "en-US": {
+    "number.decimal_separator": ".",
+    "number.thousands_separator": ","
+  },
+  "es-ES": {
+    "number.decimal_separator": ",",
+    "number.thousands_separator": "."
+  },
+  "pt-BR": {
+    "number.decimal_separator": ",",
+    "number.thousands_separator": "."
+  }
+}

@@ -1,0 +1,27 @@
+
+enemy_ground.png
+size: 323,323
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+enemy4
+  rotate: false
+  xy: 2, 158
+  size: 154, 163
+  orig: 154, 163
+  offset: 0, 0
+  index: -1
+enemy5
+  rotate: false
+  xy: 158, 158
+  size: 154, 163
+  orig: 154, 163
+  offset: 0, 0
+  index: -1
+enemy6
+  rotate: true
+  xy: 2, 2
+  size: 154, 163
+  orig: 154, 163
+  offset: 0, 0
+  index: -1
