@@ -32,7 +32,7 @@ You can assist in actively maintaining the project by fixing errors and helping 
 > [!IMPORTANT]
 > Before making bug reports, please read the repository [code of conduct](CODE_OF_CONDUCT.md) for a list of terms and conditions. **Failure to comply with the code of conduct may result in the removal of your access to this repository.**
 
-All bug concerns should be addressed in the repository's [Issues](https://github.com/RawGoldIngot/offlineunikittygame/issues) page or emailed to [rawgoldingot@gmail.com](mailto:rawgoldingot@gmail.com).
+All bug concerns should be addressed in the repository's [Issues](https://github.com/RawGoldIngot/offline-unikitty-game/issues) page or emailed to [rawgoldingot@gmail.com](mailto:rawgoldingot@gmail.com).
 
 ## Copyright
 
